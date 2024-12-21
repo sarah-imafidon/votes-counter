@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<script>
+
+function transaction( balance, card){
+    let withdraw = balance - card;
+}
+
+
+   let balance = prompt('please what is your balance?');
+   let card = prompt('how much recharge card do you want to buy?');
+   
+   if(balance < card){
+    confirm("successful payment");
+    amount = transaction(balance, card);
+    
+    alert("your recharge card payment was successful, you paid: "+ card + "and your new balance is: "+ amount);
+    
+   }
+   else{
+    alert("the balance is not enough");
+
+   }
+
+    
+</script>
+<body>
+
+
+</body>    
+</html>

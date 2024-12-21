@@ -1,0 +1,78 @@
+body {
+    background-image: url("station.jpg");
+    background-size: cover;
+    font-family: "Rubik", serif;
+    font-weight: bold;
+    text-align: center;
+    background: pink;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-between;
+    border-radius: 10px;
+
+    border: 2px solid #ffa8B6;
+    background-color: #ffa8B6;
+    width: 350px;
+    height: 500px;
+    margin-right: auto; 
+    margin-left: auto;
+    
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: lightsalmon;
+   cursor: pointer;
+
+}
+#increment-btn:hover{
+    background: rgb(252, 150, 110);
+}
+#save-btn {
+    background: lightblue;
+    cursor: pointer;
+}
+#save-btn:hover{
+    background: rgb(163, 214, 231);
+}
+
+#del-btn {
+
+    background: lightcoral;
+    cursor: pointer;
+}
+#del-btn:hover{
+    background: rgb(245, 119, 119);
+}
+#remove-btn {
+    background: plum;
+    cursor: pointer;
+}
+#remove-btn:hover{
+    background: rgb(224, 149, 224);
+}
